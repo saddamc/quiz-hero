@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,7 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Quiz Hero | blog</title>
+    <title>Quiz Hero | Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
@@ -48,15 +48,16 @@
         </a>
       </nav>
     </header>
-
     <main>
-      <section class="lg:w-9/12 md:w-[90%] w-[95%] mx-auto space-y-5 py-10">
-        <article class="space-y-3 border-b-2 pb-5">
+      <section
+        class="lg:w-9/12 md:w-[90%] w-[95%] mx-auto text-center space-y-5 py-10"
+      >
+        <article class="space-y-3 border-b-2 pb-5 text-justify">
           <h2 class="text-xl font-bold">
             <span class="text-red-600">Q1 :</span> What is JavaScript and what
             is it used for?
           </h2>
-          <p class="text-justify">
+          <p>
             <span class="text-green-600">Answer :</span> JavaScript is a
             high-level, dynamic programming language commonly used for web
             development. It allows developers to create interactive elements on
@@ -65,62 +66,66 @@
             server-side.
           </p>
         </article>
-        <article class="space-y-3 border-b-2 pb-5">
+        <article class="space-y-3 border-b-2 pb-5 text-justify">
           <h2 class="text-xl font-bold">
-            <span class="text-red-600">Q2 :</span> What are closures in
-            JavaScript?
+            <span class="text-red-600">Q2 :</span> What is JavaScript?
           </h2>
-          <p class="text-justify">
-            <span class="text-green-600">Answer :</span> Closures are a feature
-            in JavaScript where an inner function has access to the outer
-            (enclosing) function's variables. This includes the outer function's
-            scope chain, allowing the inner function to remember and access
-            variables from its outer scope even after the outer function has
-            executed.
+          <p>
+            <span class="text-green-600">Answer :</span> JavaScript is a
+            programming language commonly used in web development to create
+            interactive effects within web browsers. It is versatile and works
+            on both the client-side and server-side.
           </p>
         </article>
-        <article class="space-y-3 border-b-2 pb-5">
+        <article class="space-y-3 border-b-2 pb-5 text-justify">
           <h2 class="text-xl font-bold">
             <span class="text-red-600">Q3 :</span> What is the difference
-            between `==` and `===` in JavaScript?
+            between <code>let</code> and <code>var</code> in JavaScript?
           </h2>
-          <p class="text-justify">
-            <span class="text-green-600">Answer :</span> In JavaScript, `==` is
-            the equality operator that compares two values for equality after
-            converting both values to a common type. In contrast, `===` is the
-            strict equality operator that compares both the value and the type
-            without performing type conversion. Therefore, `===` is generally
-            preferred for comparison.
+          <p>
+            <span class="text-green-600">Answer :</span> <code>let</code> allows
+            you to declare variables that are limited to the scope of a block
+            statement, while <code>var</code> declares variables globally or
+            locally to an entire function regardless of block scope.
           </p>
         </article>
-        <article class="space-y-3 border-b-2 pb-5">
+        <article class="space-y-3 border-b-2 pb-5 text-justify">
           <h2 class="text-xl font-bold">
-            <span class="text-red-600">Q4 :</span> What are JavaScript Promises?
+            <span class="text-red-600">Q4 :</span> What are JavaScript closures?
           </h2>
-          <p class="text-justify">
-            <span class="text-green-600">Answer :</span> Promises in JavaScript
-            are objects representing the eventual completion or failure of an
-            asynchronous operation. They allow developers to handle asynchronous
-            code more effectively by chaining `.then()` and `.catch()` methods,
-            improving code readability and manageability over traditional
-            callback-based approaches.
+          <p>
+            <span class="text-green-600">Answer :</span> A closure is a function
+            that retains access to its outer scope even after the outer function
+            has finished executing. This allows for private variables and
+            encapsulation.
           </p>
         </article>
-        <article class="space-y-3 border-b-2 pb-5">
+        <article class="space-y-3 border-b-2 pb-5 text-justify">
           <h2 class="text-xl font-bold">
-            <span class="text-red-600">Q5 :</span> How does the `let` keyword
-            differ from `var` in JavaScript?
+            <span class="text-red-600">Q5 :</span> What is the purpose of the
+            <code>this</code> keyword in JavaScript?
           </h2>
-          <p class="text-justify">
-            <span class="text-green-600">Answer :</span> The `let` keyword
-            declares block-scoped variables, meaning they are only accessible
-            within the block they are defined. In contrast, `var` declares
-            function-scoped or globally-scoped variables, depending on the
-            context. Additionally, variables declared with `let` are not hoisted
-            to the top of their block, unlike `var`.
+          <p>
+            <span class="text-green-600">Answer :</span> The
+            <code>this</code> keyword refers to the object it belongs to. Its
+            value depends on where it is used: in an object method, it refers to
+            the object; alone, it refers to the global object; in a function, it
+            depends on how the function is called.
+          </p>
+        </article>
+        <article class="space-y-3 border-b-2 pb-5 text-justify">
+          <h2 class="text-xl font-bold">
+            <span class="text-red-600">Q6 :</span> What is an arrow function in
+            JavaScript?
+          </h2>
+          <p>
+            <span class="text-green-600">Answer :</span> An arrow function is a
+            shorthand way to write function expressions in JavaScript. It uses
+            the <code>=></code> syntax and does not have its own
+            <code>this</code> context, which is inherited from the parent scope.
           </p>
         </article>
       </section>
     </main>
   </body>
-</html> -->
+</html>
